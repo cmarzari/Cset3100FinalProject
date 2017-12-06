@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Prosto+One|Rubik+Mono+One');
+
+.footer {
+    
+}
+
+body {
+    
+}
+
+h2{
+    font-family: 'Prosto One', cursive;
+}
+
+h1{
+    font-family: 'Prosto One', cursive;
+}
+
+.container{
+    padding-left:20px;
+    padding-right:20px; 
+}
+
+.center{
+    text-align: center;
+}
+
+button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: inset 0 0 0 3px #c62137;
+    color: #c62137;
+    font-size: inherit;
+    font-weight: 700;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  .arrow{
+    font-size:50px;
+    
+}
+
+.glyphicon-arrow-right{
+    color: #c62137;
+}
+
+.thumbnail{
+    border:none;
+}
+
+

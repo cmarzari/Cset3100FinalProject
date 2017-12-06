@@ -1,0 +1,27 @@
+.jumbotron{
+    height:100%;
+    margin-top: 100px;
+    background: white;
+    width:75%;
+    margin-right: auto;
+    margin-left: auto;
+   border: 3px solid black;
+  
+}
+
+a{
+    background: white !important;
+    color:grey;
+}
+
+a:hover{
+    color:red;
+}
+
+.center{
+    text-align: center;
+}
+
+hr{
+    color:red;
+}

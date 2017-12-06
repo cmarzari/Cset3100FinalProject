@@ -1,0 +1,50 @@
+#bike_container {
+	width: 359px;
+	height:232px;
+	margin:0 auto;
+	position: relative;
+}
+#frame {
+	z-index:100;
+	position:absolute;
+}
+#pedal {
+    width: 76px;
+    height: 76px;
+    position:absolute;
+    -moz-animation: spin 4s infinite linear;
+    -webkit-animation: spin 4s infinite linear;
+	top: 136px;
+	left: 125px;
+	z-index:150;
+}
+#wheel1 {
+	z-index:1;
+	position:absolute;
+	width:144px;
+	height:144px;
+	bottom:0;
+	left:0;
+	-moz-animation: spin 8s infinite linear;
+	    -webkit-animation: spin 8s infinite linear;
+}
+#wheel2 {
+	z-index:1;
+	position:absolute;
+	width:144px;
+	height:144px;
+	bottom: 0;
+	right:0;
+	-moz-animation: spin 8s infinite linear;
+	    -webkit-animation: spin 8s infinite linear;
+}
+
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}

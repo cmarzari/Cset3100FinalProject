@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Prosto+One|Rubik+Mono+One');
+.navbar-brand{
+    font-family: 'Prosto One', cursive;
+    font-size: 1.7em;
+    color: #c62137;
+}
+
+.navbar-brand:hover{
+    color: red;
+}
+
+
+
+.navbar {
+    z-index: 9999;
+    margin-bottom: 10px;
+    background-color: white;
+    
+    margin-top: 0px;
+
+}
+
+#navbar li a{
+    color: #c62013;
+    font-family: 'Prosto One', cursive;
+}
+
+.navbar li a:hover{
+    color: red;
+    font-family: 'Prosto One', cursive;
+}
+
+

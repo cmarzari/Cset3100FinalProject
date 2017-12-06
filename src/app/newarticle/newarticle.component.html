@@ -1,0 +1,22 @@
+<br>
+<br>
+<br>
+<h2>Blog Management</h2>
+
+<input type="text" id="title" #newItem  placeholder="Post Title">
+<br>
+<br>
+<input type="textarea" id="content" #newContent  placeholder="Post Content">
+<br>
+<button (click)="addItem(newItem.value, newContent.value)" >Add</button>
+<br>
+
+<ul>
+  <li *ngFor="let blog of blogObservable| async">
+    <input type="text" #updateTitle [value]="blog.title">
+    <input type="text" #updateContent [value]="blog.content">
+    <button (click)="updateTitle(blog.$key, updateTitle.value )">Update Title</button>
+    <button (click)="updateContent(blog.$key, updateContent.value)">Update Content</button>
+    <button (click)="deleteItem(this.blog.$key)">Delete</button>
+  </li>
+</ul>

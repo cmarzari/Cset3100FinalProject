@@ -1,0 +1,17 @@
+<br>
+<br>
+<br>
+<br>
+<h1>Welcome to Our Blog!</h1>
+
+  <ul>
+  <div *ngFor="let blog of blogObservable | async">  
+       <li>
+        <h2>
+          {{blog.title}}
+        </h2>
+        <p>{{blog.content}}</p>
+      </li>  
+      <hr>
+    </div>
+    </ul>
