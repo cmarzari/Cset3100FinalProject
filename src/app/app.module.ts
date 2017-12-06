@@ -24,6 +24,7 @@ import { NewarticleComponent } from './newarticle/newarticle.component';
 import { SigninComponent } from './signin/signin.component';
 import { ContactComponent } from './contact/contact.component';
 import { ForsaleComponent } from './forsale/forsale.component';
+import { TipsComponent } from './tips/tips.component';
 
 
 
@@ -35,6 +36,7 @@ const appRoutes: Routes = [
   { path: 'Signin', component: SigninComponent},
   { path: 'Contact', component: ContactComponent},
   { path: 'ForSale', component: ForsaleComponent},
+  { path: 'TipsandTricks', component: TipsComponent},
   { path: '', redirectTo:'/Home', pathMatch: 'full'}  
 ];
 
@@ -54,7 +56,8 @@ const appRoutes: Routes = [
     NewarticleComponent,
     SigninComponent,
     ContactComponent,
-    ForsaleComponent
+    ForsaleComponent,
+    TipsComponent
   ],
   imports: [
     BrowserModule,
